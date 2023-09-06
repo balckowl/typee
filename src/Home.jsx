@@ -40,6 +40,7 @@ const Home = () => {
         setTimer(20);
         setMissNumber(0);
         setPoint(0);
+        setScore(0);
     }
 
     //ワードゲームを取得する
