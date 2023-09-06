@@ -18,21 +18,22 @@ const Game = ({ timer, missNumber, setMissNumber, point, setPoint, words, setSco
     }, [wordNumber])
 
     //最終スコアを計算
-    useEffect(() =>{
+    useEffect(() => {
         caluclateScore();
-    },[point, missNumber])
+    }, [point, missNumber])
 
     const handleKeyDown = (e) => {
         if (e.key === wordSplit[currentNumber]) {
             setCurrentNumber(currentNumber + 1);
+
+            if (currentNumber === wordSplit.length -1) {
+                setWordNumber(Math.floor(Math.random() * words.length));
+                setPoint(point + 1);
+                setCurrentNumber(0);
+            }
+            
         } else {
             setMissNumber(missNumber + 1);
-        }
-
-        if (currentNumber === wordSplit.length - 1) {
-            setWordNumber(Math.floor(Math.random() * words.length));
-            setPoint(point + 1);
-            setCurrentNumber(0);
         }
     }
 
