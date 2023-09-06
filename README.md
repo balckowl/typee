@@ -1,8 +1,24 @@
-# React + Vite
+# Typee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 作成動機
 
-Currently, two official plugins are available:
+暇つぶしにTyping appを作ってみた。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##　作成物概要
+
+googleアカウントでログインでき、タイピングのハイスコアを表示してくれる。
+ログインせず、プレイすることも可能。
+
+##　使用した技術
+
+* React
+* Firebase
+* vite
+* vercel 
+* git/github
+
+# 作成するに当たって初めて知ったこと
+
+* firebase + vercelでのホスティング方法
+
+
