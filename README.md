@@ -1,5 +1,7 @@
 # Typee
 
+![ゲームのサムネイル](images/typee.png)
+
 ## 作成動機
 
 暇つぶしにTyping appを作ってみた。
@@ -12,10 +14,11 @@ googleアカウントでログインでき、タイピングのハイスコア�
 ## 使用した技術
 
 * React
+* Bootstrap
 * Firebase
-* vite
+* Vite
 * vercel 
-* git/github
+* Git/Github
 
 # 作成するに当たって初めて知ったこと
 
