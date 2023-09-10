@@ -1,6 +1,6 @@
 # Typee
 
-![ゲームのサムネイル](images/typee.png)
+![ゲームのサムネイル](https://github.com/balckowl/typee/blob/master/public/images/typee.png)
 
 ## 作成動機
 
